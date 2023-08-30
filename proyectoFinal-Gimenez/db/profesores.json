@@ -1,0 +1,30 @@
+[
+  { "apellidoNombre": "Quispe, Juana", "materia": "Geografía", "curso": "3A" },
+  {
+    "apellidoNombre": "Albornoz, Victoria",
+    "materia": "Historia",
+    "curso": "1B"
+  },
+  { "apellidoNombre": "Lacroix, Erika", "materia": "Quimica", "curso": "5A" },
+  {
+    "apellidoNombre": "Barroso, Andrea",
+    "materia": "Psicología",
+    "curso": "5A"
+  },
+  { "apellidoNombre": "Cortez, Analia", "materia": "Inglés", "curso": "3B" },
+  {
+    "apellidoNombre": "Murua, German",
+    "materia": "Educación Física",
+    "curso": "2B"
+  },
+  {
+    "apellidoNombre": "Albornoz, Natalia",
+    "materia": "Educación Física",
+    "curso": "6B"
+  },
+  {
+    "apellidoNombre": "Cossi, Claudio",
+    "materia": "Legislación",
+    "curso": "2C"
+  }
+]
