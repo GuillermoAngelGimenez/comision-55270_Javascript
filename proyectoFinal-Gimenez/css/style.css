@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(66, 129, 108);
+}
+
+.titulo {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.contFormularios{
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+#formProfesor,
+#formEstudiantes {
+    margin-top: 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgba(82, 76, 76, 0.612);
+}
+
+#btnAgregarprofe,
+#btnAgregarestudiante {
+    width: 200px;
+    height: 40px;
+}
+
+/* #btnCancelarModificar{
+    margin-right: 2rem;
+} */
+
+.botonprofe,
+.botonestudiante {
+    display: flex;
+    justify-content: end;
+    /* height: 50px; */
+    padding-top: 1rem; 
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#estudiantesEncabezado,
+#contenedorProfe {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+#contenedorEstudiantes{
+    background-color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 6rem;
+
+}
+
+.formatoProfe {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#estudiantesEncabezado {
+    margin-top: 20px;
+}
+
+
+.formatoRegistro {
+    background-color: grey;
+    color: white;
+    line-height: 0.5rem;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+#inputApellidoNombreEstudiante, #inputApellidoNombreProfe {
+    width: 300px;
+}
+
+.botoneraEstudiante {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botonEliminar,
+.botonModificar,
+.botonCancelar {
+    width: 7rem;
+    margin-left: 2rem;
+    border: black 2px solid;
+}
+
+strong {
+    color: blue;
+} 
+
+table {
+    text-align: center; 
+}
+
+.colNombreApellido{
+    width: 30rem;
+}
+
+thead{
+    font-size: larger;
+}
+
+#tablaEstudiantes tr th, #tablaEstudiantes tr td{
+    background-color: rgb(103, 99, 99);
+}
+
+.deshabilitarBotonModificarEliminar{
+    background-color: rgb(229, 229, 229) !important;
+}
+
+.deshabilitarBotonCancelar{
+    bottom: 2rem;
+    right: 5rem;
+    position: fixed;
+    z-index: 9999; 
+    display: none;
+}
+
+.habilitarBotonCancelar{
+    bottom: 2rem;
+    right: 5rem;
+    position: fixed;
+    z-index: 9999; 
+    display: inline-block; 
+}
+
+#opciones{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    background-color: rgb(85, 129, 131);
+    border: solid 2px black;
+    border-radius: 1rem;
+}
+
+#ordenEstudiantes{
+    margin-left: 1rem;
+}
+
+#btnCancelarBuscar{
+    width: 4rem;
+}
+
+#btnBuscar{
+    width: 7rem;
+}
+
